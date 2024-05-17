@@ -1,3 +1,13 @@
+@media (max-width: 600px) {
+    .content {
+        padding: 10px;
+    }
+    .project {
+        flex-direction: column;
+    }
+    /* Other responsive styles */
+}
+
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -102,18 +112,23 @@ header p {
 }
 
 .socials {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
-.socials a img {
-    width: 30px;
-    height: auto;
+.socials a {
     margin: 0 10px;
-    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none; /* Remove underline from links */
+    border: none; /* Ensure there's no border */
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 section h2 {
