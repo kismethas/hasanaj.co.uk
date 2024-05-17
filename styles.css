@@ -137,41 +137,58 @@ header p {
 
 #experience h2 {
     font-size: 2em;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-}
-
-.experience-item {
     margin-bottom: 20px;
 }
 
-.experience-item h3 {
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience-details h3 {
     font-size: 1.5em;
     margin: 0;
 }
 
-.role {
+.company, .duration, .location {
     display: block;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #555;
 }
 
-.duration {
-    display: block;
-    font-size: 1em;
-    color: #888;
-    margin-bottom: 10px;
+.expandable {
+    display: none; /* Initially hide the expandable content */
+    margin-top: 10px;
 }
 
-.experience-item ul {
-    list-style-type: disc;
-    margin: 0;
-    padding-left: 20px;
+.read-more-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.experience-item ul li {
-    margin-bottom: 10px;
+.read-more-btn:hover {
+    background-color: #0056b3;
 }
 
 
