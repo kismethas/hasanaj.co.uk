@@ -168,6 +168,39 @@ header p {
     color: #555;
 }
 
+#education h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.education-details {
+    flex: 1;
+}
+
+.education-details h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.subject, .duration, .grade {
+    display: block;
+    font-size: 1em;
+    color: #555;
+}
+
 .expandable {
     display: none; /* Initially hide the expandable content */
     margin-top: 10px;
@@ -215,6 +248,8 @@ section ul {
 section ul li {
     margin-bottom: 10px;
 }
+
+
 
 .project {
     display: flex;
